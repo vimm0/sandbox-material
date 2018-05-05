@@ -1,42 +1,43 @@
 <template>
   <div class="hello">
-    <nav>
-      <ul>
-        <li>
-          <a href="">Gmail</a>
-        </li>
-        <li>
-          <a href="">Images</a>
-        </li>
-        <li>
-          <a href="">;;</a>
-        </li>
-        <li>
-          <a href="">notification</a>
-        </li>
-        <li>
-          <a href="">avatar</a>
-        </li>
-      </ul>
-    </nav>
-    <img src="./../assets/google.png">    
-    <form>
-      <input type="search"/>
+    <div class="nav-menu">
+        <a class="nav-item" href="#">Gmail</a>
+        <a class="nav-item" href="#">Images</a>
+        <a class="nav-item grid-icon" href="#"></a>
+        <a class="nav-item rid" href="#"></a>
+        <a class="nav-item avatar"></a>
+        <!-- <img src="/../avatar.jpg" alt="Avatar" style="border-radius: 50%;"> -->
+
+    </div>
+  <div class="container">
+    <div class="google-image">
+      <h1 id="logo"></h1>
+    </div>
+    <div class="form">
+      <div class="input-container z-depth-2">
+        <input type="text" />
+        <a class="voice" title="Search by voice"><span class="reco"></span></a>
+      </div>
       <input type="submit" value="Google Search"/>
       <input type="submit" value="I'm Feeling Lucky"/>
-    </form>
-    <footer>
-      <nav>
-        <ul>
-          <li><a>Advertising</a></li>
-          <li><a>Bussiness</a></li>
-          <li><a>About</a></li>
-          <li><a>Privacy</a></li>
-          <li><a>Terms</a></li>
-          <li><a>Settings</a></li>
-        </ul>
-      </nav>
-    </footer>
+    </div>
+    <p><small id="google-offer">Google offered in: <a href="#">नेपाली</a></small></p>
+  </div>
+  <div class="footer">
+  <div class="footer-location">
+    <span class="footer-item-location">Nepal</span>
+  </div>
+    <span class="footer-item-left">
+      <a>Advertising</a>
+      <a>Bussiness</a>
+      <a>About</a>
+       </span>
+       <span class="footer-item-right">
+      <a>Privacy</a>
+      <a>Terms</a>
+      <a>Settings</a>
+    </span>
+    </div>
   </div>
 </template>
 
@@ -48,8 +49,3 @@ export default {
   }
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>

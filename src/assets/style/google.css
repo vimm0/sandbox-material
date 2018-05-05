@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-family: arial,sans-serif;
+    color: #222;
+    font-size: 13px;
+}
+div.nav-menu {
+    width:100%;
+    margin-top: -7rem;
+    position: fixed;
+    text-align: right;
+}
+a.nav-item {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    padding:0 0.4rem;
+}
+a.avatar{
+    background-image: url('../avatar.jpg');
+    background-repeat: repeat-y;
+    width: 32px;
+    height: 33px;
+    margin: 0 15px 0 2px;
+    border-radius: 50%;
+}
+h1#logo {
+    width: 272px;
+    height: 92px;
+    background: url('../google.png') top left no-repeat;
+    background-size:100%;
+    margin: 0 auto;
+    /* margin-top: 7rem; */
+}
+.grid-icon {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 23px;
+    width: 30px;
+    background-image: url('../icons.png');
+    background-position: -134px 231px;
+}
+.rid {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(0,0,0,.55);
+    color:#fff;
+    border-radius: 50%;
+
+    background-image: url('../icons.png');
+    background-size: 527px 68px;
+    background-position: 182px 29px;
+}
+div.container {
+    margin: 0 auto;
+    width: 450px;
+    text-align:center;
+}
+div.google-image {
+    height: 97px;
+    margin-top: 113px;
+}
+div.form > div.input-container{
+    height: 44px;
+    position: relative;
+}
+a.voice {
+    float: right;
+}
+span.reco {
+    background: url('../voice.png') no-repeat;
+    background-size: 24px 24px;
+    display: inline-block;
+    height: 23px;
+    width: 19px;    
+    position: absolute;
+    margin-top: -3.5rem;
+    margin-left: -2rem;
+}
+input[type="text"] {
+    width: 369px;    
+    padding: 7px;
+    margin: 25px 0 18px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+    height: 100%;
+    right:2rem;
+    padding: 5px 9px 30px;
+    text-indent: 1rem;
+}
+* label focus color */
+    .input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+     color: #005eed !important;
+    }
+
+/* label underline focus color */
+ input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+     border-bottom: 1px solid #005eed !important;
+     box-shadow: 0 1px 0 0 #005eed !important;
+    }
+input[type="text"]:hover {
+    border-color: #aaa;
+}
+
+input[type="submit"] {
+    /* background: #eee; */
+    height: 36px;
+    line-height: 27px;
+    color: #757575;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    padding: 0 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #f8f8f8;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    cursor: pointer;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+p > small#google-offer {
+    font-size: small;
+    margin-bottom: 24px;
+    display: inline-block;
+    line-height: 28px;
+}
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+div.footer {
+    /* push footer to bottom */
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+}
+div.footer-location {
+    border-bottom: 1px solid #e4e4e4;background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+span.footer-item-location {
+    font-size: 15px;
+    text-align: left;    
+    padding-left: 27px;
+    color: rgba(0,0,0,.54);
+}
+span.footer-item-left {
+    margin-left: 30px; 
+    font-size: small; 
+}
+span.footer-item-left > * {
+    color: rgba(0,0,0,.54);
+}
+span.footer-item-right {
+    margin-right: 30px;float: right;  font-size: small;
+}
+span.footer-item-right > * {
+    color: rgba(0,0,0,.54) !important;
+}
