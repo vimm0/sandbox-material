@@ -4,7 +4,7 @@
         <a class="nav-item" href="#">Gmail</a>
         <a class="nav-item" href="#">Images</a>
         <a class="nav-item grid-icon" href="#"></a>
-        <a class="nav-item rid" href="#"></a>
+        <a class="nav-item notification-icon" href="#"></a>
         <a class="nav-item avatar"></a>
         <!-- <img src="/../avatar.jpg" alt="Avatar" style="border-radius: 50%;"> -->
 
@@ -16,7 +16,7 @@
     <div class="form">
       <div class="input-container z-depth-2">
         <input type="text" />
-        <a class="voice" title="Search by voice"><span class="reco"></span></a>
+        <a class="voice" title="Search by voice"><span class="recog_ni"></span></a>
       </div>
       <input type="submit" value="Google Search"/>
       <input type="submit" value="I'm Feeling Lucky"/>

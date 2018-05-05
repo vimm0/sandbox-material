@@ -1,3 +1,4 @@
+/* Generic */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,12 @@ body {
     color: #222;
     font-size: 13px;
 }
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+/* Navigation */
 div.nav-menu {
     width:100%;
     margin-top: -7rem;
@@ -22,22 +29,7 @@ a.nav-item {
     vertical-align: middle;
     padding:0 0.4rem;
 }
-a.avatar{
-    background-image: url('../avatar.jpg');
-    background-repeat: repeat-y;
-    width: 32px;
-    height: 33px;
-    margin: 0 15px 0 2px;
-    border-radius: 50%;
-}
-h1#logo {
-    width: 272px;
-    height: 92px;
-    background: url('../google.png') top left no-repeat;
-    background-size:100%;
-    margin: 0 auto;
-    /* margin-top: 7rem; */
-}
+
 .grid-icon {
     position: relative;
     display: inline-block;
@@ -50,7 +42,7 @@ h1#logo {
     background-image: url('../icons.png');
     background-position: -134px 231px;
 }
-.rid {
+.notification-icon {
     position: relative;
     display: inline-block;
     outline: none;
@@ -67,15 +59,38 @@ h1#logo {
     background-size: 527px 68px;
     background-position: 182px 29px;
 }
+
+a.avatar{
+    background-image: url('../avatar.jpg');
+    background-repeat: repeat-y;
+    width: 32px;
+    height: 33px;
+    margin: 0 15px 0 2px;
+    border-radius: 50%;
+}
+
+/* Main Container */
 div.container {
     margin: 0 auto;
     width: 450px;
     text-align:center;
 }
+
+/* Logo */
 div.google-image {
     height: 97px;
     margin-top: 113px;
 }
+h1#logo {
+    width: 272px;
+    height: 92px;
+    background: url('../google.png') top left no-repeat;
+    background-size:100%;
+    margin: 0 auto;
+}
+
+
+/* Input */
 div.form > div.input-container{
     height: 44px;
     position: relative;
@@ -83,7 +98,7 @@ div.form > div.input-container{
 a.voice {
     float: right;
 }
-span.reco {
+span.recog_ni {
     background: url('../voice.png') no-repeat;
     background-size: 24px 24px;
     display: inline-block;
@@ -110,7 +125,7 @@ input[type="text"] {
     }
 
 /* label underline focus color */
- input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
      border-bottom: 1px solid #005eed !important;
      box-shadow: 0 1px 0 0 #005eed !important;
     }
@@ -142,7 +157,7 @@ input[type="submit"]:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
 }
-
+/* Nepalese Offer */
 p > small#google-offer {
     font-size: small;
     margin-bottom: 24px;
@@ -150,11 +165,7 @@ p > small#google-offer {
     line-height: 28px;
 }
 
-a {
-    color: #1a0dab;
-    text-decoration: none;
-}
-
+/* Footer */
 div.footer {
     /* push footer to bottom */
     bottom: 0;
