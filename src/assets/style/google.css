@@ -39,7 +39,7 @@ a.nav-item {
     box-sizing: border-box;
     height: 23px;
     width: 30px;
-    background-image: url('../icons.png');
+    background-image: url('../images/google/icons.png');
     background-position: -134px 231px;
 }
 .notification-icon {
@@ -55,13 +55,13 @@ a.nav-item {
     color:#fff;
     border-radius: 50%;
 
-    background-image: url('../icons.png');
+    background-image: url('../images/google/icons.png');
     background-size: 527px 68px;
     background-position: 182px 29px;
 }
 
 a.avatar{
-    background-image: url('../avatar.jpg');
+    background-image: url('../images/google/avatar.jpg');
     background-repeat: repeat-y;
     width: 32px;
     height: 33px;
@@ -84,7 +84,7 @@ div.google-image {
 h1#logo {
     width: 272px;
     height: 92px;
-    background: url('../google.png') top left no-repeat;
+    background: url('../images/google/google.png') top left no-repeat;
     background-size:100%;
     margin: 0 auto;
 }
@@ -99,17 +99,17 @@ a.voice {
     float: right;
 }
 span.recog_ni {
-    background: url('../voice.png') no-repeat;
+    background: url('../images/google/voice.png') no-repeat;
     background-size: 24px 24px;
     display: inline-block;
     height: 23px;
-    width: 19px;    
+    width: 19px;
     position: absolute;
     margin-top: -3.5rem;
     margin-left: -2rem;
 }
 input[type="text"] {
-    width: 369px;    
+    width: 369px;
     padding: 7px;
     margin: 25px 0 18px;
     border: solid 1px #ccc;
@@ -119,7 +119,7 @@ input[type="text"] {
     padding: 5px 9px 30px;
     text-indent: 1rem;
 }
-* label focus color */
+/* label focus color */
     .input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
      color: #005eed !important;
     }
@@ -184,13 +184,13 @@ div.footer-location {
 }
 span.footer-item-location {
     font-size: 15px;
-    text-align: left;    
+    text-align: left;
     padding-left: 27px;
     color: rgba(0,0,0,.54);
 }
 span.footer-item-left {
-    margin-left: 30px; 
-    font-size: small; 
+    margin-left: 30px;
+    font-size: small;
 }
 span.footer-item-left > * {
     color: rgba(0,0,0,.54);
